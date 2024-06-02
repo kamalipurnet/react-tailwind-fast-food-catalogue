@@ -1,0 +1,82 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "iranyekan";
+  font-display: swap;
+  font-style: normal;
+  font-weight: 300;
+  src: url(../public/woff2/IRANYekanWebRegular.woff2) format("woff2");
+  /* FF39+,Chrome36+, Opera24+*/
+}
+@font-face {
+  font-family: "iranyekan";
+  font-display: swap;
+  font-style: normal;
+  font-weight: 400;
+  src: url(../public/woff2/IRANYekanWebMedium.woff2) format("woff2");
+  /* FF39+,Chrome36+, Opera24+*/
+}
+@font-face {
+  font-family: "iranyekan";
+  font-display: swap;
+  font-style: normal;
+  font-weight: 500;
+  src: url(../public/woff2/IRANYekanWebMedium.woff2) format("woff2");
+  /* FF39+,Chrome36+, Opera24+*/
+}
+@font-face {
+  font-family: "iranyekan";
+  font-display: swap;
+  font-style: normal;
+  font-weight: 700;
+  src: url(../public/woff2/IRANYekanWebBold.woff2) format("woff2");
+  /* FF39+,Chrome36+, Opera24+*/
+}
+@font-face {
+  font-family: "iranyekan";
+  font-display: swap;
+  font-style: normal;
+  font-weight: 800;
+  src: url(../public/woff2/IRANYekanWebExtraBold.woff2) format("woff2");
+  /* FF39+,Chrome36+, Opera24+*/
+}
+@font-face {
+  font-family: "iranyekan";
+  font-display: swap;
+  font-style: normal;
+  font-weight: 900;
+  src: url(../public/woff2/IRANYekanWebBlack.woff2) format("woff2");
+  /* FF39+,Chrome36+, Opera24+*/
+}
+@font-face {
+  font-family: "iranyekan";
+  font-display: swap;
+  font-style: normal;
+  font-weight: 1000;
+  src: url(../public/woff2/iranyekanwebextrablack.woff2)
+    format("woff2");
+  /* FF39+,Chrome36+, Opera24+*/
+}
+
+* {
+  font-family: iranyekan;
+}
+body {
+  max-width: 2000px;
+  margin: 0px auto;
+}
+@keyframes fadeInHoriz {
+  0% {
+    opacity: 0;
+    transform: translateX(50px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+.fade-in-horiz {
+  animation: fadeInHoriz 0.8s ease forwards;
+}
