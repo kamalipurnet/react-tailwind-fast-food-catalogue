@@ -64,7 +64,7 @@ function App() {
             themeButton={themeButton}
           ></CategoryList>
         </div>
-        {/* <div className="continer mt-16">{renderContent()}</div> */}
+        <div className="continer mt-16 min-h-screen">{renderContent()}</div>
       </div>
     </>
   );

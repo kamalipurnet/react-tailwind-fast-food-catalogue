@@ -6,7 +6,7 @@ const FastFoodList = ({ id, fastFoodItems }) => {
   let delay = 0.1;
   return (
     <>
-      <div className=" grid grid-cols-3 gap-4 px-64">
+      <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 px-16 xl:px-64">
         {fastFoodItems.data.map((fastFood) => {
           if (id === null) {
             delay += 0.03;
