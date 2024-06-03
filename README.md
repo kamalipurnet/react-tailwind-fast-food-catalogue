@@ -4,7 +4,7 @@
 
 # project images
 - dark theme
-![project photos](front/src/assets/images/dark-screen.png)
+![project photos](front/src/assets/images/darkScreen.png)
 - light theme
 ![project photos](front/src/assets/images/light-screen.png)
 
